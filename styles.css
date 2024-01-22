@@ -89,10 +89,9 @@ footer {
 
 .Fetured_Bikes-pic {
     display: flex;
-    justify-content: space-between;
-
+    justify-content: center;
     padding: 10px 0;
-    margin: 0px auto;
+    /* margin: 0px auto; */
     border: 10px;
 }
 
@@ -108,6 +107,7 @@ footer {
     flex-direction: column;
     align-items: flex-start;
     gap: 40px;
+    padding: 20px 30px 40px;
 }
 
 .latest>.latest-pic2 {
@@ -116,6 +116,7 @@ footer {
     flex-direction: column;
     align-items: flex-start;
     gap: 40px;
+    padding: 20px 30px 40px;
 }
 
 .latest>.latest-pic3 {
@@ -124,18 +125,41 @@ footer {
     flex-direction: column;
     align-items: flex-start;
     gap: 40px;
+    padding: 20px 30px 40px;
 }
 
 .latest {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
+
 }
 
 .news-section {
     text-align: center;
+    padding: 20px 30px 40px;
+    margin: 10PX auto;
+    color: #0A0826;
+
+    font-size: 48px;
+
+    font-weight: 600;
+
+    text-transform: capitalize;
+
+
 }
 
 /* Happy Clients Says */
+.latest {
+    display: flex;
+    justify-content: center;
+}
+
+.happy-contaien {
+    padding: 10px, 20px, 30px;
+
+}
+
 .Clients {
     color: #E76F51;
 }
@@ -145,12 +169,14 @@ footer {
     color: #0A0826;
     font-size: 48px;
     font-weight: 600;
+    padding: 20px 30px 40px;
+    margin: 10PX auto;
 }
 
 .user-section {
     display: flex;
-    justify-content: space-between;
-    text-align: center;
+    justify-content: center;
+
 
 }
 
@@ -161,29 +187,82 @@ footer {
     gap: 30px;
     border-radius: 5px;
     border: 1px solid #DEDEDE;
+    text-align: center;
 
 }
 
-.user-1photo>p {
+
+.user-2photo {
+    padding: 40px 35px;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    border-radius: 5px;
+    border: 1px solid #DEDEDE;
+    text-align: center;
+    /* justify-content: center; */
+}
+
+.user-3photo {
+    padding: 40px 35px;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    border-radius: 5px;
+    border: 1px solid #DEDEDE;
     text-align: center;
 }
-.user-2photo{
-    padding: 40px 35px;
-    flex-direction: column;
-    align-items: center;
-    gap: 30px;
-    border-radius: 5px;
-    border: 1px solid #DEDEDE;
-}
-.user-3photo{
-    padding: 40px 35px;
-    flex-direction: column;
-    align-items: center;
-    gap: 30px;
-    border-radius: 5px;
-    border: 1px solid #DEDEDE;
+
+.photo-rezise {
+    width: 150px;
 }
 
 .ratings {
     color: yellow;
+}
+
+/* Frequently Asked Questions */
+
+.qns-title {
+    color: #0D0925;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 50px;
+    padding: 50px 60px 70px;
+    margin: 10PX auto;
+
+}
+
+.qsn {
+    color: #E76F51;
+}
+
+.qns-content {
+    display: flex;
+    /* justify-content: space-between; */
+
+}
+
+.qns-discription {
+    font-size: 15px;
+}
+
+.qsn-photo {
+    width: 600px;
+}
+
+/* fotter-section */
+.footer-main {
+    display: inline-flex;
+    padding: 56px 165px 84px 165px;
+    justify-content: center;
+
+    gap: 475px;
+    background: var(--Default-Black, #0B0D17);
+}
+
+.fotter-section {
+    display: flex;
+    justify-content: end;
 }
