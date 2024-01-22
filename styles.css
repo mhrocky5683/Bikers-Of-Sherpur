@@ -1,0 +1,81 @@
+/* Universal Style  */
+* {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+header,
+main,
+footer {
+    padding: 50px 150px 80px;
+}
+
+
+/* Header Sections Style  */
+.hero-section {
+
+    background: #264653;
+}
+
+.navigation {
+    display: flex;
+    justify-content: end;
+}
+
+.navigation-text {
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    margin: 0;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+}
+
+.primary-button {
+    padding: 10px 25px;
+    border-radius: 5px;
+    background: #E76F51;
+    display: inline;
+
+}
+
+.primary-button>a {
+
+    text-decoration: none;
+
+}
+
+/* hero-content section  */
+.hero-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 80px;
+}
+
+.hero-articel>p {
+    padding: 20px 0;
+    color: #E0E0E0;
+    font-size: 16px;
+    font-weight: 300;
+
+}
+
+.hero-articel>h3 {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 600;
+}
