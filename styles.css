@@ -79,3 +79,111 @@ footer {
     font-size: 48px;
     font-weight: 600;
 }
+
+/* main section */
+
+.Fetured_Bikes {
+    text-align: center;
+
+}
+
+.Fetured_Bikes-pic {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 10px 0;
+    margin: 0px auto;
+    border: 10px;
+}
+
+.Fetured_Bikes>h5 {
+    color: red;
+}
+
+/* latest news section */
+
+.latest>.latest-pic1 {
+    display: flex;
+    width: 337px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.latest>.latest-pic2 {
+    display: flex;
+    width: 337px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.latest>.latest-pic3 {
+    display: flex;
+    width: 337px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 40px;
+}
+
+.latest {
+    display: flex;
+    justify-content: space-between;
+}
+
+.news-section {
+    text-align: center;
+}
+
+/* Happy Clients Says */
+.Clients {
+    color: #E76F51;
+}
+
+.title-section {
+    text-align: center;
+    color: #0A0826;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.user-section {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+
+}
+
+.user-1photo {
+    padding: 40px 35px;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    border-radius: 5px;
+    border: 1px solid #DEDEDE;
+
+}
+
+.user-1photo>p {
+    text-align: center;
+}
+.user-2photo{
+    padding: 40px 35px;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    border-radius: 5px;
+    border: 1px solid #DEDEDE;
+}
+.user-3photo{
+    padding: 40px 35px;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    border-radius: 5px;
+    border: 1px solid #DEDEDE;
+}
+
+.ratings {
+    color: yellow;
+}
